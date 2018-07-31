@@ -21,13 +21,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto w-100 justify-content-end">
             <li class="nav-item active">
-              <a class="nav-link text-dark" href="https://getbootstrap.com/docs/3.3/components/#navbar">Viaja<span class="sr-only"></span></a>
+              <a class="nav-link text-dark" href="#rates">Viaja<span class="sr-only"></span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#depoimentos">Conduce</a>
+              <a class="nav-link text-dark" href="#drivers">Conduce</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Inicia sesión</a>
+              <a class="nav-link text-dark" href="#subscrive">Inicia sesión</a>
             </li>
           </ul>
         </div>
@@ -36,11 +36,11 @@
   </header>
 
 
-  <section class="container-car container-fluid">
+  <section class="container-car container-fluid" id="subscrive">
     <div class="row h-25"></div>
     <div class="car row">
       <div class="idealColor pl-6 col-10 offset-2 col-sm-5 offset-sm-7">
-        <h1 class="mt-4">Disfruta del viaje</h1>
+        <h1 class="mt-4" >Disfruta del viaje</h1>
         <h1 class="">Eres dueno de tu tiempo</h1>
         <h3 class="pt-4">Viaja com <img src="assets/images/logoBlanco.png" alt="logo Lab Car"></h3>
         <input class="p-2 col-3 bg-white border-0 rounded" type="button" value="REGISTRATE">
@@ -74,7 +74,7 @@
       </div>
     </div>
   </section>
-  <section class="container-driver container-fluid">
+  <section class="container-driver container-fluid" id="drivers">
     <div class="row h-100">
       <div class="divTransparent col-11 offset-1 col-sm-4 offset-sm-8 p-3 mb-2 text-white d-flex flex-column align-items-center">
         <h3>Conduce cuando quieras</h3>
@@ -86,13 +86,15 @@
 
 
 
-  <section class="idealColor container-map container-fluid">
+  <section class="idealColor container-map container-fluid" id="rates">
     <div class="row">
       <div class="col-12 col-sm-6">
         <h3>Tarifas</h3>
         <p>Consulta las tarifas LabCar aquí</p>
         <form action="">
+          <img src="assets/images/shape.png" alt="icone partida">
           <input class="idealColor border-0 border-white rounded" type="text" name="" placeholder="Ingrese su punto de partida">
+          <img src="assets/images/shape2.png" alt="icone chegada">
           <input class="idealColor border-0 border-white rounded" type="text" name="" placeholder="Ingrese su destino">
           <input class="p-2 bg-white border-0" type="button" value="!TRAZAR RUTA!">
         </form>
