@@ -61,11 +61,17 @@ footer a:hover{
   .container-driver{
     height: 60vh;
   }
+  .container-map{
+    height: 150vh;
+  }
   .divTransparent{
     height: 60vh;
   }
   .map{
     width: 440px;
     height: 260px;
+  }
+  .lastSection{
+    height: 120vh;
   }
 }
